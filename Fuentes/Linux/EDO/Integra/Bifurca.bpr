@@ -1,0 +1,265 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="Bifurca.exe"/>
+    <OBJFILES value="Bifurca.obj Acecade.obj Def_Usuario.obj 
+      ..\Libreria\Formas\VDColoresSistema.obj 
+      ..\Libreria\Formas\VDCondicionInicial.obj 
+      ..\Libreria\Formas\VDDimensiones.obj ..\Libreria\Formas\VDEquilibrios.obj 
+      ..\Libreria\Formas\VDEscenarios.obj 
+      ..\Libreria\Formas\VDIncrementoPasoCursor.obj 
+      ..\Libreria\Formas\VDMetodosIntegracion.obj 
+      ..\Libreria\Formas\VDParametros.obj ..\Libreria\Formas\VDPasoCursor.obj 
+      ..\Libreria\Formas\VDPeriodoTrayectoriaCerrada.obj 
+      ..\Libreria\Formas\VDSistemas.obj 
+      ..\Libreria\Formas\VentanaVisualizacion.obj 
+      ..\Libreria\Formas\VDCampoVectorial.obj ..\Libreria\Sistemas.obj 
+      ..\Libreria\Controlador.obj ..\Libreria\Ctrl_Fun_Aux.obj 
+      ..\Libreria\BaseMetodosNumericos.obj 
+      ..\Libreria\MNBifurcaciones\MetodosBifurcaciones.obj 
+      ..\Libreria\MNCalculoEquilibrios\MetodosCalculoEquilibrios.obj 
+      ..\Libreria\MNCampoVectorial\MetodosCampoVectorial.obj 
+      ..\Libreria\MNFuncionesAuxiliares\MetodosFuncionesAuxiliares.obj 
+      ..\Libreria\MNIntegracion\MetodosIntegracionUnPasoVariable.obj 
+      ..\Libreria\MNIntegracion\MetodosIntegracionA-Estables.obj 
+      ..\Libreria\MNIntegracion\MetodosIntegracionMultiPasoFijo.obj 
+      ..\Libreria\MNIntegracion\MetodosIntegracionMultiPasoVariable.obj 
+      ..\Libreria\MNIntegracion\MetodosIntegracionUnPasoFijo.obj 
+      ..\Libreria\MNIntegracion\MetodosIntegracion.obj 
+      ..\Libreria\MNIsoclinas\MetodosIsoclinas.obj ..\..\Libreria\Tiempo.obj 
+      ..\..\Libreria\Arbol_binario.obj ..\..\Libreria\Cadenas.obj 
+      ..\..\Libreria\Calnpol.obj ..\..\Libreria\Fechas.obj 
+      ..\..\Libreria\Fechora.obj ..\..\Libreria\Gen_rep.obj 
+      ..\..\Libreria\Man_arch.obj ..\..\Libreria\Pila.obj 
+      ..\..\Libreria\Ana_exp.obj ..\..\Libreria\V_256.obj 
+      ..\..\Libreria\Vent_Graf_2D.obj ..\..\Libreria\Vent_Graf_Base.obj 
+      ..\..\Libreria\Vent_Graf_Caja-2D.obj ..\..\Libreria\Vent_Graf_Caja-3D.obj 
+      ..\..\Libreria\Vent_Graf_Caja-3DM.obj 
+      ..\..\Libreria\Vent_Graf_Controlador.obj 
+      ..\..\Libreria\Vent_Graf_Ejes-2D.obj ..\..\Libreria\Vent_Graf_Ejes-2DM.obj 
+      ..\..\Libreria\Vent_Graf_Ejes-3D.obj ..\..\Libreria\Vent_Graf_Polares.obj 
+      ..\..\Libreria\FORMAS\Lmensaje.obj ..\..\Libreria\FORMAS\Ayuda.obj 
+      ..\..\Libreria\FORMAS\EnviarCorreo.obj 
+      ..\..\Libreria\FORMAS\ACX-WebBrowser.obj Principal.obj"/>
+    <RESFILES value="Bifurca.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) Acecade.dfm ..\Libreria\Formas\VDColoresSistema.dfm 
+      ..\Libreria\Formas\VDCondicionInicial.dfm 
+      ..\Libreria\Formas\VDDimensiones.dfm ..\Libreria\Formas\VDEquilibrios.dfm 
+      ..\Libreria\Formas\VDEscenarios.dfm 
+      ..\Libreria\Formas\VDIncrementoPasoCursor.dfm 
+      ..\Libreria\Formas\VDMetodosIntegracion.dfm 
+      ..\Libreria\Formas\VDParametros.dfm ..\Libreria\Formas\VDPasoCursor.dfm 
+      ..\Libreria\Formas\VDPeriodoTrayectoriaCerrada.dfm 
+      ..\Libreria\Formas\VDSistemas.dfm 
+      ..\Libreria\Formas\VentanaVisualizacion.dfm 
+      ..\Libreria\Formas\VDCampoVectorial.dfm ..\..\Libreria\FORMAS\Lmensaje.dfm 
+      ..\..\Libreria\FORMAS\Ayuda.dfm ..\..\Libreria\FORMAS\EnviarCorreo.dfm 
+      ..\..\Libreria\FORMAS\ACX-WebBrowser.dfm Principal.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="bcbie.lib DCLUSR.lib vclx.lib nmfast.lib vcl.lib rtl.lib"/>
+    <SPARELIBS value="rtl.lib vcl.lib nmfast.lib vclx.lib DCLUSR.lib bcbie.lib"/>
+    <PACKAGES value="rtl.bpi vcl.bpi vclx.bpi vcljpg.bpi dsnap.bpi dbrtl.bpi vcldb.bpi 
+      bdertl.bpi bcbsmp.bpi ibsmp.bpi vcldbx.bpi qrpt.bpi teeui.bpi teedb.bpi 
+      tee.bpi dss.bpi nmfast.bpi inetdb.bpi inet.bpi dclocx.bpi"/>
+    <PATHCPP value=".;..\Libreria\Formas;..\Libreria\Formas;..\Libreria\Formas;..\Libreria\Formas;..\Libreria\Formas;..\Libreria\Formas;..\Libreria\Formas;..\Libreria\Formas;..\Libreria\Formas;..\Libreria\Formas;..\Libreria\Formas;..\Libreria\Formas;..\Libreria\Formas;..\Libreria;..\Libreria;..\Libreria;..\Libreria;..\Libreria\MNBifurcaciones;..\Libreria\MNCalculoEquilibrios;..\Libreria\MNCampoVectorial;..\Libreria\MNFuncionesAuxiliares;..\Libreria\MNIntegracion;..\Libreria\MNIntegracion;..\Libreria\MNIntegracion;..\Libreria\MNIntegracion;..\Libreria\MNIntegracion;..\Libreria\MNIntegracion;..\Libreria\MNIsoclinas;..\..\Libreria;..\..\Libreria;..\..\Libreria;..\..\Libreria;..\..\Libreria;..\..\Libreria;..\..\Libreria;..\..\Libreria;..\..\Libreria;..\..\Libreria;..\..\Libreria;..\..\Libreria;..\..\Libreria;..\..\Libreria;..\..\Libreria;..\..\Libreria;..\..\Libreria;..\..\Libreria;..\..\Libreria;..\..\Libreria;..\..\Libreria;..\..\Libreria\FORMAS;..\..\Libreria\FORMAS;..\..\Libreria\FORMAS;..\..\Libreria\FORMAS"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="__PROGRAMACION_BORLAND__;__PROGRAMACION_WINDOWS__"/>
+    <SYSDEFINES value="NO_STRICT;_VIS_NOLIB"/>
+    <MAINSOURCE value="Bifurca.cpp"/>
+    <INCLUDEPATH value="..\Libreria;..\Libreria\Formas;..\..\Libreria\FORMAS;..\..\Libreria;..\Libreria\MNIsoclinas;..\Libreria\MNIntegracion;..\Libreria\MNFuncionesAuxiliares;..\Libreria\MNCampoVectorial;..\Libreria\MNCalculoEquilibrios;..\Libreria\MNBifurcaciones;$(BCB)\Imports;$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="..\Libreria;..\Libreria\Formas;..\..\Libreria\FORMAS;..\..\Libreria;..\Libreria\MNIsoclinas;..\Libreria\MNIntegracion;..\Libreria\MNFuncionesAuxiliares;..\Libreria\MNCampoVectorial;..\Libreria\MNCalculoEquilibrios;..\Libreria\MNBifurcaciones;$(BCB)\Projects\Lib;$(BCB)\Imports;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par -w-8027 -w-8026"/>
+    <WARNOPTSTR value=""/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-I..\Libreria -I..\Libreria\Formas -I..\..\Libreria\FORMAS 
+      -I..\..\Libreria -I..\Libreria\MNIsoclinas -I..\Libreria\MNIntegracion 
+      -I..\Libreria\MNFuncionesAuxiliares -I..\Libreria\MNCampoVectorial 
+      -I..\Libreria\MNCalculoEquilibrios -I..\Libreria\MNBifurcaciones 
+      -I$(BCB)\Imports -I$(BCB)\include -I$(BCB)\include\vcl -src_suffix cpp 
+      -D__PROGRAMACION_BORLAND__ -D__PROGRAMACION_WINDOWS__ -boa"/>
+    <CFLAG1 value="-O2 -H=c:\Temp\vcl60.csm -Hc -w- -Vx -Ve -X- -a4 -b -d -k- -vi -c -tW -tWM"/>
+    <PFLAGS value="-$Y- -$L- -$D- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zn"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -Gn"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="Bifurca.cpp" FORMNAME="" UNITNAME="Bifurca" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Bifurca.res" FORMNAME="" UNITNAME="Bifurca" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Acecade.cpp" FORMNAME="VAcercaDe" UNITNAME="Acecade" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Def_Usuario.cpp" FORMNAME="" UNITNAME="Def_Usuario" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Libreria\Formas\VDColoresSistema.cpp" FORMNAME="ColoresSistema" UNITNAME="VDColoresSistema" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Libreria\Formas\VDCondicionInicial.cpp" FORMNAME="CondicionInicial" UNITNAME="VDCondicionInicial" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Libreria\Formas\VDDimensiones.cpp" FORMNAME="Dimensiones" UNITNAME="VDDimensiones" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Libreria\Formas\VDEquilibrios.cpp" FORMNAME="FormaParametrosEquilibrios" UNITNAME="VDEquilibrios" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Libreria\Formas\VDEscenarios.cpp" FORMNAME="Escenarios" UNITNAME="VDEscenarios" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Libreria\Formas\VDIncrementoPasoCursor.cpp" FORMNAME="IncrementoPasoCursor" UNITNAME="VDIncrementoPasoCursor" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Libreria\Formas\VDMetodosIntegracion.cpp" FORMNAME="ConfiguracionMetodosIntegracion" UNITNAME="VDMetodosIntegracion" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Libreria\Formas\VDParametros.cpp" FORMNAME="Parametros" UNITNAME="VDParametros" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Libreria\Formas\VDPasoCursor.cpp" FORMNAME="PasoCursor" UNITNAME="VDPasoCursor" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Libreria\Formas\VDPeriodoTrayectoriaCerrada.cpp" FORMNAME="PeriodoTrayectoriaCerrada" UNITNAME="VDPeriodoTrayectoriaCerrada" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Libreria\Formas\VDSistemas.cpp" FORMNAME="SeleccionSistemas" UNITNAME="VDSistemas" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Libreria\Formas\VentanaVisualizacion.cpp" FORMNAME="VentanaTrabajo" UNITNAME="VentanaVisualizacion" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Libreria\Formas\VDCampoVectorial.cpp" FORMNAME="CampoVectorial" UNITNAME="VDCampoVectorial" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Libreria\Sistemas.cpp" FORMNAME="" UNITNAME="Sistemas.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Libreria\Controlador.cpp" FORMNAME="" UNITNAME="Controlador.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Libreria\Ctrl_Fun_Aux.cpp" FORMNAME="" UNITNAME="Ctrl_Fun_Aux.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Libreria\BaseMetodosNumericos.cpp" FORMNAME="" UNITNAME="BaseMetodosNumericos.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Libreria\MNBifurcaciones\MetodosBifurcaciones.cpp" FORMNAME="" UNITNAME="MetodosBifurcaciones" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Libreria\MNCalculoEquilibrios\MetodosCalculoEquilibrios.cpp" FORMNAME="" UNITNAME="MetodosCalculoEquilibrios" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Libreria\MNCampoVectorial\MetodosCampoVectorial.cpp" FORMNAME="" UNITNAME="MetodosCampoVectorial" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Libreria\MNFuncionesAuxiliares\MetodosFuncionesAuxiliares.cpp" FORMNAME="" UNITNAME="MetodosFuncionesAuxiliares" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Libreria\MNIntegracion\MetodosIntegracionUnPasoVariable.cpp" FORMNAME="" UNITNAME="MetodosIntegracionUnPasoVariable.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Libreria\MNIntegracion\MetodosIntegracionA-Estables.cpp" FORMNAME="" UNITNAME="MetodosIntegracionA-Estables.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Libreria\MNIntegracion\MetodosIntegracionMultiPasoFijo.cpp" FORMNAME="" UNITNAME="MetodosIntegracionMultiPasoFijo.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Libreria\MNIntegracion\MetodosIntegracionMultiPasoVariable.cpp" FORMNAME="" UNITNAME="MetodosIntegracionMultiPasoVariable.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Libreria\MNIntegracion\MetodosIntegracionUnPasoFijo.cpp" FORMNAME="" UNITNAME="MetodosIntegracionUnPasoFijo.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Libreria\MNIntegracion\MetodosIntegracion.cpp" FORMNAME="" UNITNAME="MetodosIntegracion.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Libreria\MNIsoclinas\MetodosIsoclinas.cpp" FORMNAME="" UNITNAME="MetodosIsoclinas" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\Libreria\Tiempo.cpp" FORMNAME="" UNITNAME="Tiempo.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\Libreria\Arbol_binario.cpp" FORMNAME="" UNITNAME="Arbol_binario.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\Libreria\Cadenas.cpp" FORMNAME="" UNITNAME="Cadenas.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\Libreria\Calnpol.cpp" FORMNAME="" UNITNAME="Calnpol.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\Libreria\Fechas.cpp" FORMNAME="" UNITNAME="Fechas.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\Libreria\Fechora.cpp" FORMNAME="" UNITNAME="Fechora.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\Libreria\Gen_rep.cpp" FORMNAME="" UNITNAME="Gen_rep.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\Libreria\Man_arch.cpp" FORMNAME="" UNITNAME="Man_arch.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\Libreria\Pila.cpp" FORMNAME="" UNITNAME="Pila.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\Libreria\Ana_exp.cpp" FORMNAME="" UNITNAME="Ana_exp.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\Libreria\V_256.cpp" FORMNAME="" UNITNAME="V_256.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\Libreria\Vent_Graf_2D.cpp" FORMNAME="" UNITNAME="Vent_Graf_2D.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\Libreria\Vent_Graf_Base.cpp" FORMNAME="" UNITNAME="Vent_Graf_Base.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\Libreria\Vent_Graf_Caja-2D.cpp" FORMNAME="" UNITNAME="Vent_Graf_Caja-2D.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\Libreria\Vent_Graf_Caja-3D.cpp" FORMNAME="" UNITNAME="Vent_Graf_Caja-3D.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\Libreria\Vent_Graf_Caja-3DM.cpp" FORMNAME="" UNITNAME="Vent_Graf_Caja-3DM.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\Libreria\Vent_Graf_Controlador.cpp" FORMNAME="" UNITNAME="Vent_Graf_Controlador.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\Libreria\Vent_Graf_Ejes-2D.cpp" FORMNAME="" UNITNAME="Vent_Graf_Ejes-2D.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\Libreria\Vent_Graf_Ejes-2DM.cpp" FORMNAME="" UNITNAME="Vent_Graf_Ejes-2DM.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\Libreria\Vent_Graf_Ejes-3D.cpp" FORMNAME="" UNITNAME="Vent_Graf_Ejes-3D.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\Libreria\Vent_Graf_Polares.cpp" FORMNAME="" UNITNAME="Vent_Graf_Polares.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\Libreria\FORMAS\Lmensaje.cpp" FORMNAME="LMensajeForm" UNITNAME="Lmensaje" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\Libreria\FORMAS\Ayuda.cpp" FORMNAME="AyudaForm" UNITNAME="Ayuda" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\Libreria\FORMAS\EnviarCorreo.cpp" FORMNAME="FormaEnviarCorreo" UNITNAME="EnviarCorreo" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\Libreria\FORMAS\ACX-WebBrowser.cpp" FORMNAME="FormaWebBrowzer" UNITNAME="ACX-WebBrowser" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Principal.cpp" FORMNAME="VentanaPrincipal" UNITNAME="Principal" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=1
+MajorVer=1
+MinorVer=0
+Release=0
+Build=13
+Debug=0
+PreRelease=1
+Special=0
+Private=0
+DLL=0
+Locale=2058
+CodePage=1252
+
+[Version Info Keys]
+CompanyName=Laboratorio de Dinámica no Lineal, UNAM
+FileDescription=Análizador Interactivo de Sistemas Dinámicos
+FileVersion=1.0.0.13
+InternalName=Bifurca
+LegalCopyright=Laboratorio de Dinámica no Lineal, UNAM
+LegalTrademarks=
+OriginalFilename=Bifurca.exe
+ProductName=BIFURCA WINDOS C++
+ProductVersion=1.0.0.0
+Comments=Programador: Antonio Carrillo Ledesma
+
+[HistoryLists\hlIncludePath]
+Count=11
+Item0=..\Libreria;..\Libreria\Formas;..\..\Libreria\FORMAS;..\..\Libreria;..\Libreria\MNIsoclinas;..\Libreria\MNIntegracion;..\Libreria\MNFuncionesAuxiliares;..\Libreria\MNCampoVectorial;..\Libreria\MNCalculoEquilibrios;..\Libreria\MNBifurcaciones;$(BCB)\Imports;$(BCB)\include;$(BCB)\include\vcl
+Item1=..\..\Libreria\FORMAS;..\..\Libreria;..\Libreria\MNIsoclinas;..\Libreria\MNIntegracion;..\Libreria\MNFuncionesAuxiliares;..\Libreria\MNCampoVectorial;..\Libreria\MNCalculoEquilibrios;..\Libreria\MNBifurcaciones;$(BCB)\Imports;$(BCB)\include;$(BCB)\include\vcl
+Item2=..\..\Libreria\FORMAS;..\..\Libreria;..\Libreria\MNIsoclinas;..\Libreria\MNIntegracion;..\Libreria\MNFuncionesAuxiliares;..\Libreria\MNCampoVectorial;..\Libreria\MNCalculoEquilibrios;..\Libreria\MNBifurcaciones;..\Interfaz;$(BCB)\Imports;C:\Archivos de programa\Borland\CBuilder4\Projects;..\Libreria;..\Libreria\FORMAS;$(BCB)\include;$(BCB)\include\vcl
+Item3=..\..\Libreria;..\Libreria\MNIsoclinas;..\Libreria\MNIntegracion;..\Libreria\MNFuncionesAuxiliares;..\Libreria\MNCampoVectorial;..\Libreria\MNCalculoEquilibrios;..\Libreria\MNBifurcaciones;..\Interfaz;$(BCB)\Imports;C:\Archivos de programa\Borland\CBuilder4\Projects;..\Libreria;..\Libreria\FORMAS;$(BCB)\include;$(BCB)\include\vcl
+Item4=..\Interfaz;$(BCB)\Imports;C:\Archivos de programa\Borland\CBuilder4\Projects;..\Libreria;..\Libreria\FORMAS;$(BCB)\include;$(BCB)\include\vcl
+Item5=..\Interfaz;$(BCB)\Imports;C:\Archivos de programa\Borland\CBuilder4\Projects\;..\Libreria;..\Libreria\FORMAS;$(BCB)\include;$(BCB)\include\vcl
+Item6=$(BCB)\Imports;C:\Archivos de programa\Borland\CBuilder4\Projects\;..\Libreria;..\Libreria\FORMAS;$(BCB)\include;$(BCB)\include\vcl
+Item7=C:\Archivos de programa\Borland\CBuilder4\Projects\;..\Libreria;..\Libreria\FORMAS;$(BCB)\include;$(BCB)\include\vcl
+Item8=C:\Archivos de programa\Borland\CBuilder4\Projects;C:\Archivos de programa\Borland\CBuilder4\Projects\;..\Libreria;..\Libreria\FORMAS;$(BCB)\include;$(BCB)\include\vcl
+Item9=C:\Archivos de programa\Borland\CBuilder4\Projects;..\Libreria;..\Libreria\FORMAS;$(BCB)\include;$(BCB)\include\vcl
+Item10=..\Libreria\FORMAS;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=11
+Item0=..\Libreria;..\Libreria\Formas;..\..\Libreria\FORMAS;..\..\Libreria;..\Libreria\MNIsoclinas;..\Libreria\MNIntegracion;..\Libreria\MNFuncionesAuxiliares;..\Libreria\MNCampoVectorial;..\Libreria\MNCalculoEquilibrios;..\Libreria\MNBifurcaciones;$(BCB)\Projects\Lib;$(BCB)\Imports;$(BCB)\lib\obj;$(BCB)\lib
+Item1=..\..\Libreria\FORMAS;..\..\Libreria;..\Libreria\MNIsoclinas;..\Libreria\MNIntegracion;..\Libreria\MNFuncionesAuxiliares;..\Libreria\MNCampoVectorial;..\Libreria\MNCalculoEquilibrios;..\Libreria\MNBifurcaciones;$(BCB)\Projects\Lib;$(BCB)\Imports;$(BCB)\lib\obj;$(BCB)\lib
+Item2=..\..\Libreria\FORMAS;..\..\Libreria;..\Libreria\MNIsoclinas;..\Libreria\MNIntegracion;..\Libreria\MNFuncionesAuxiliares;..\Libreria\MNCampoVectorial;..\Libreria\MNCalculoEquilibrios;..\Libreria\MNBifurcaciones;..\Interfaz;$(BCB)\Projects\Lib;$(BCB)\Imports;C:\Archivos de programa\Borland\CBuilder4\Projects;..\Libreria;..\Libreria\FORMAS;$(BCB)\lib\obj;$(BCB)\lib
+Item3=..\..\Libreria;..\Libreria\MNIsoclinas;..\Libreria\MNIntegracion;..\Libreria\MNFuncionesAuxiliares;..\Libreria\MNCampoVectorial;..\Libreria\MNCalculoEquilibrios;..\Libreria\MNBifurcaciones;..\Interfaz;$(BCB)\Projects\Lib;$(BCB)\Imports;C:\Archivos de programa\Borland\CBuilder4\Projects;..\Libreria;..\Libreria\FORMAS;$(BCB)\lib\obj;$(BCB)\lib
+Item4=..\Interfaz;$(BCB)\Projects\Lib;$(BCB)\Imports;C:\Archivos de programa\Borland\CBuilder4\Projects;..\Libreria;..\Libreria\FORMAS;$(BCB)\lib\obj;$(BCB)\lib
+Item5=..\Interfaz;$(BCB)\Projects\Lib;$(BCB)\Imports;C:\Archivos de programa\Borland\CBuilder4\Projects\;..\Libreria;..\Libreria\FORMAS;$(BCB)\lib\obj;$(BCB)\lib
+Item6=$(BCB)\Projects\Lib;$(BCB)\Imports;C:\Archivos de programa\Borland\CBuilder4\Projects\;..\Libreria;..\Libreria\FORMAS;$(BCB)\lib\obj;$(BCB)\lib
+Item7=C:\Archivos de programa\Borland\CBuilder4\Projects\;..\Libreria;..\Libreria\FORMAS;$(BCB)\lib\obj;$(BCB)\lib
+Item8=C:\Archivos de programa\Borland\CBuilder4\Projects;C:\Archivos de programa\Borland\CBuilder4\Projects\;..\Libreria;..\Libreria\FORMAS;$(BCB)\lib\obj;$(BCB)\lib
+Item9=C:\Archivos de programa\Borland\CBuilder4\Projects;..\Libreria;..\Libreria\FORMAS;$(BCB)\lib\obj;$(BCB)\lib
+Item10=..\Libreria\FORMAS;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=4
+Item0=__PROGRAMACION_BORLAND__;__PROGRAMACION_WINDOWS__
+Item1=__PROGRAMACION_BORLAND__
+Item2=__PROGRAMACION_WINDOWS__
+Item3=__PROGRAMACION_WINDOWS__;_DEBUG
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=1
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>

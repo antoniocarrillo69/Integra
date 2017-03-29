@@ -1,0 +1,44 @@
+<p><b>El programa <i>INTERFAZ</i> es un modulo que permite
+al usuario generar y mantener sus propias bibliotecas de sistemas de ecuaciones
+diferenciales ordinarias y en diferencias. Realizando las siguientes actividades
+dentro de esta:</b>
+<ul>
+<li><b>Definici&oacute;n y edici&oacute;n de los proyectos<br><i>(llamaremos proyecto
+       al conjunto de sistemas definidos en este)</i></b></li>
+<li><b>Definici&oacute;n y edici&oacute;n de ecuaciones homogen&eacute;as y no hom&oacute;geneas de primer orden</b></li>
+<li><b>Definici&oacute;n y edici&oacute;n de ecuaciones homogen&eacute;as y no hom&oacute;geneas de segundo orden</b></li>
+<li><b>Definici&oacute;n y edici&oacute;n de sistemas de ecuaciones diferenciales ordinarias y en diferencias</b></li>
+<li><b>Definici&oacute;n y edici&oacute;n par&aacute;metros y funciones auxiliares a gr&aacute;ficar</b></li>
+<li><b>Definici&oacute;n y edici&oacute;n de especificaciones para perturbar las condiciones iniciales al tiempo Ti o m&uacute;ltiplos de este</b></li>
+<li><b>Generar archivo de definiciones y enviarlo por correo electr&oacute;nico o generar el 
+archivo ejecutable a partir de las definiciones del proyecto si se tiene instalado el compilador</b></li> </ul>
+
+<p><br><b>Y manejador de proyectos, tiene las siguientes caracter&iacute;sticas:</b>
+<ul>
+<li><b>Cada proyecto puede contener hasta 100 sistemas</b></li>
+<li><b>Cada sistema puede tener hasta 1000 ecuaciones diferenciales<br><i>(la ecuaci&oacute;n puede ser &uacute;nica o 
+       definida por partes, tomando como referencia el tiempo, condiciones iniciales o el valor de par&aacute;metros)</i></b></li>
+<li><b>Cada sistema puede tener hasta 500 par&aacute;metros<br><i>(su valor puede ser fijo o cambiar en el tiempo)</i></b></li>
+<li><b>Cada sistema puede tener hasta 9 funciones auxiliares a graficar</b></li>
+<li><b>Permite mantener documentado al proyecto y cada uno de sus sistemas</b></li>
+<li><b>Valida la gran mayor&iacute;a de los errores en la edici&oacute;n de ecuaciones</b></li>
+<li><b>Permite editar funciones auxiliares para ayudar la edici&oacute;n de ecuaciones</b></li>
+<li><b>Permite editar funciones a graficar para los ejes coordenados X e Y</b></li>
+<li><b>Ayuda en l&iacute;nea para cada unas de las actividades de la <i>INTERFAZ</i></b></li>
+</ul>
+
+<b>De esta forma tendr&aacute; de manera organizada y documentada la biblioteca
+de sistemas, permitiendo un r&aacute;pido mantenimiento de los proyectos,
+ya que con las definiciones podr&aacute; modificar los diversos sistemas
+del proyecto y generar nuevamente el archivo ejecutable con las modificaciones
+pertinentes.</b>
+<p><b>As&iacute; los archivos ejecutables que se generan con la <i>INTEFRAZ</i> 
+son independientes de ella, ya que al ser unidos a los diversos m&oacute;dulos
+del sistema, generan programas ejecutables los que podr&aacute;
+utilizar como auxiliares para el estudio de sistemas din&aacute;micos.</b>
+<p><b>Una vez hecha la definici&oacute;n de los sistemas con el programa
+<i>INTERFAZ</i>, y generado el archivo ejecutable a partir de ella (tendr&aacute;
+el mismo nombre del proyecto pero con la extensi&oacute;n EXE), el usuario
+podr&aacute; analizar los sistemas din&aacute;micos contenidos en el mismo,
+corriendo ese ejecutable.</b>
+

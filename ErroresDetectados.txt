@@ -1,0 +1,2 @@
+<li>La cabeza del vector del campo vectoria es dibujada erroneamente al tener dimensiones no homog&eacute;neas en los ejes coordenados</li>
+<li>La cabeza del vector del campo vectoria es dibujada erroneamente al trabajar en coordenadas polares</li>

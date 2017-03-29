@@ -1,0 +1,8 @@
+<li>Secciones de Poincare</li>
+<li>Cuencas de atracci&oacute;n</li>
+<li>M&eacute;todos num&eacute;ricos de integraci&oacute;n A-Estables</li>
+<li>C&aacute;lculo de equilibrios</li>
+<li>Funciones auxiliares param&eacute;tricas</li>
+<li>Tutoriales para el usuario</li>
+<li>Manual del usuario</li>
+

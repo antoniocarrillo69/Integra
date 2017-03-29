@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="Interfaz.exe"/>
+    <OBJFILES value="Interfaz.obj Principal.obj Acecade.obj VentanaVisualizacion.obj 
+      Ctrl_estructura.obj ..\..\Libreria\Tiempo.obj 
+      ..\..\Libreria\Arbol_binario.obj ..\..\Libreria\Fechas.obj 
+      ..\..\Libreria\Fechora.obj ..\..\Libreria\Gen_rep.obj 
+      ..\..\Libreria\Man_arch.obj ..\..\Libreria\Ana_exp.obj 
+      ..\..\Libreria\FORMAS\EnviarCorreo.obj 
+      ..\..\Libreria\FORMAS\ACX-WebBrowser.obj ..\..\Libreria\FORMAS\Ayuda.obj 
+      ..\..\Libreria\Cadenas.obj ..\..\Libreria\Ctrl_l_a.obj"/>
+    <RESFILES value="Interfaz.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) Principal.dfm Acecade.dfm VentanaVisualizacion.dfm 
+      ..\..\Libreria\FORMAS\EnviarCorreo.dfm 
+      ..\..\Libreria\FORMAS\ACX-WebBrowser.dfm ..\..\Libreria\FORMAS\Ayuda.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="bcbie.lib DCLUSR.lib vclx.lib nmfast.lib vcl.lib rtl.lib"/>
+    <SPARELIBS value="rtl.lib vcl.lib nmfast.lib vclx.lib DCLUSR.lib bcbie.lib"/>
+    <PACKAGES value="rtl.bpi vcl.bpi vclx.bpi vcljpg.bpi dsnap.bpi dbrtl.bpi vcldb.bpi 
+      bdertl.bpi bcbsmp.bpi ibsmp.bpi vcldbx.bpi qrpt.bpi teeui.bpi teedb.bpi 
+      tee.bpi dss.bpi nmfast.bpi inetdb.bpi inet.bpi dclocx.bpi"/>
+    <PATHCPP value=".;..\..\Libreria;..\..\Libreria;..\..\Libreria;..\..\Libreria;..\..\Libreria;..\..\Libreria;..\..\Libreria;..\..\Libreria\FORMAS;..\..\Libreria\FORMAS;..\..\Libreria\FORMAS;..\..\Libreria;..\..\Libreria"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="__PROGRAMACION_WINDOWS__;__PROGRAMACION_BORLAND__"/>
+    <SYSDEFINES value="NO_STRICT;_VIS_NOLIB"/>
+    <MAINSOURCE value="Interfaz.cpp"/>
+    <INCLUDEPATH value="..\..\Libreria\FORMAS;..\..\Libreria;$(BCB)\Imports;&quot;C:\Archivos de programa\Borland\CBuilder4\Projects&quot;;..\Libreria;..\Libreria\FORMAS;$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="..\..\Libreria\FORMAS;..\..\Libreria;$(BCB)\Imports;$(BCB)\Projects\Lib;&quot;C:\Archivos de programa\Borland\CBuilder4\Projects&quot;;..\Libreria;..\Libreria\FORMAS;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par -w-8027 -w-8026"/>
+    <WARNOPTSTR value=""/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-I..\..\Libreria\FORMAS -I..\..\Libreria -I$(BCB)\Imports 
+      -I&quot;C:\Archivos de programa\Borland\CBuilder4\Projects&quot; -I..\Libreria 
+      -I..\Libreria\FORMAS -I$(BCB)\include -I$(BCB)\include\vcl -src_suffix cpp 
+      -D__PROGRAMACION_WINDOWS__ -D__PROGRAMACION_BORLAND__ -boa"/>
+    <CFLAG1 value="-O2 -H=c:\ARCHIV~1\borland\CBUILD~1\lib\vcl60.csm -Hc -Vx -Ve -X- -a4 -b- 
+      -k- -vi -c -tW -tWM"/>
+    <PFLAGS value="-$Y- -$L- -$D- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zn"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -Gn"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="Interfaz.cpp" FORMNAME="" UNITNAME="Interfaz" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Interfaz.res" FORMNAME="" UNITNAME="Interfaz" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Principal.cpp" FORMNAME="VentanaPrincipal" UNITNAME="Principal" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Acecade.cpp" FORMNAME="VAcercaDe" UNITNAME="Acecade" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="VentanaVisualizacion.cpp" FORMNAME="VentanaTrabajo" UNITNAME="VentanaVisualizacion" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Ctrl_estructura.cpp" FORMNAME="" UNITNAME="Ctrl_estructura" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\Libreria\Tiempo.cpp" FORMNAME="" UNITNAME="Tiempo.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\Libreria\Arbol_binario.cpp" FORMNAME="" UNITNAME="Arbol_binario.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\Libreria\Fechas.cpp" FORMNAME="" UNITNAME="Fechas.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\Libreria\Fechora.cpp" FORMNAME="" UNITNAME="Fechora.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\Libreria\Gen_rep.cpp" FORMNAME="" UNITNAME="Gen_rep.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\Libreria\Man_arch.cpp" FORMNAME="" UNITNAME="Man_arch.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\Libreria\Ana_exp.cpp" FORMNAME="" UNITNAME="Ana_exp.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\Libreria\FORMAS\EnviarCorreo.cpp" FORMNAME="FormaEnviarCorreo" UNITNAME="EnviarCorreo" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\Libreria\FORMAS\ACX-WebBrowser.cpp" FORMNAME="FormaWebBrowzer" UNITNAME="ACX-WebBrowser" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\Libreria\FORMAS\Ayuda.cpp" FORMNAME="AyudaForm" UNITNAME="Ayuda" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\Libreria\Cadenas.cpp" FORMNAME="" UNITNAME="Cadenas" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\Libreria\Ctrl_l_a.cpp" FORMNAME="" UNITNAME="Ctrl_l_a" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=1
+MajorVer=1
+MinorVer=0
+Release=1
+Build=59
+Debug=0
+PreRelease=1
+Special=0
+Private=0
+DLL=0
+Locale=2058
+CodePage=1252
+
+[Version Info Keys]
+CompanyName=Laboratorio de Dinámica no Lineal, UNAM
+FileDescription=INTEGRA Windows / C++ 1.0
+FileVersion=1.0.1.59
+InternalName=Interfaz 1.0
+LegalCopyright=Laboratorio de Dinámica no Lineal, UNAM
+LegalTrademarks=SEP-INDAAUTOR
+OriginalFilename=Interfaz.exe
+ProductName=Interfaz del sistema INTEGRA
+ProductVersion=1.0.0.0
+Comments=Programador: Antonio Carrillo Ledesma
+
+[HistoryLists\hlIncludePath]
+Count=6
+Item0=..\..\Libreria\FORMAS;..\..\Libreria;$(BCB)\Imports;C:\Archivos de programa\Borland\CBuilder4\Projects;..\Libreria;..\Libreria\FORMAS;$(BCB)\include;$(BCB)\include\vcl
+Item1=$(BCB)\Imports;C:\Archivos de programa\Borland\CBuilder4\Projects;..\Libreria;..\Libreria\FORMAS;$(BCB)\include;$(BCB)\include\vcl
+Item2=$(BCB)\Imports;C:\Archivos de programa\Borland\CBuilder4\Projects\;..\Libreria;..\Libreria\FORMAS;$(BCB)\include;$(BCB)\include\vcl
+Item3=C:\Archivos de programa\Borland\CBuilder4\Projects\;..\Libreria;..\Libreria\FORMAS;$(BCB)\include;$(BCB)\include\vcl
+Item4=C:\Archivos de programa\Borland\CBuilder4\Projects;..\Libreria;..\Libreria\FORMAS;$(BCB)\include;$(BCB)\include\vcl
+Item5=..\Libreria\FORMAS;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=6
+Item0=..\..\Libreria\FORMAS;..\..\Libreria;$(BCB)\Imports;$(BCB)\Projects\Lib;C:\Archivos de programa\Borland\CBuilder4\Projects;..\Libreria;..\Libreria\FORMAS;$(BCB)\lib\obj;$(BCB)\lib
+Item1=$(BCB)\Imports;$(BCB)\Projects\Lib;C:\Archivos de programa\Borland\CBuilder4\Projects;..\Libreria;..\Libreria\FORMAS;$(BCB)\lib\obj;$(BCB)\lib
+Item2=$(BCB)\Imports;$(BCB)\Projects\Lib;C:\Archivos de programa\Borland\CBuilder4\Projects\;..\Libreria;..\Libreria\FORMAS;$(BCB)\lib\obj;$(BCB)\lib
+Item3=$(BCB)\Projects\Lib;C:\Archivos de programa\Borland\CBuilder4\Projects\;..\Libreria;..\Libreria\FORMAS;$(BCB)\lib\obj;$(BCB)\lib
+Item4=C:\Archivos de programa\Borland\CBuilder4\Projects;..\Libreria;..\Libreria\FORMAS;$(BCB)\lib\obj;$(BCB)\lib
+Item5=..\Libreria\FORMAS;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=3
+Item0=__PROGRAMACION_WINDOWS__;__PROGRAMACION_BORLAND__
+Item1=__PROGRAMACION_WINDOWS__
+Item2=__PROGRAMACION_WINDOWS__;_DEBUG
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>

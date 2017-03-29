@@ -1,0 +1,31 @@
+<br><b>Es un sistema de software que sirve para analizar visual e interactivamente, 
+el comportamiento de los sistemas din&aacute;micos
+modelados por ecuaciones diferenciales ordinarias o en diferencias. El
+sistema usa su propia biblioteca de m&eacute;todos num&eacute;ricos para
+resolver estas ecuaciones diferenciales. As&iacute; mediante la integraci&oacute;n
+num&eacute;rica de las ecuaciones diferenciales o en diferencias, <i>INTEGRA</i>
+permite hacer simulaciones de la din&aacute;mica de estos sistemas.</b>
+<p><b><i>INTEGRA</i> ofrece varias formas de visualizaci&oacute;n y despliegue
+gr&aacute;fico de los resultados de la integraci&oacute;n num&eacute;rica.
+Pueden visualizarse las evoluciones del sistema dentro del espacio de estados
+y graficar los cursos temporales de sus variables de estado. Esta
+visualizaci&oacute;n puede hacerse en el plano o en el espacio tridimensional,
+donde pueden escogerse condiciones iniciales interactivamente moviendo
+el cursor dentro de la ventana o tecleando la condici&oacute;n inicial
+especifica. Tambi&eacute;n pueden llevarse a cabo rotaciones de los ejes
+coordenados para obtener vistas de las &oacute;rbitas y de sus proyecciones
+desde diferentes perspectivas. Para los sistemas din&aacute;micos cuyo
+espacio de estados es de dimensi&oacute;n dos, puede dibujarse el campo
+vectorial asociado a la ecuaci&oacute;n diferencial o en diferencias.</b>
+<p><b>Con <i>INTEGRA</i>, el usuario investiga el comportamiento cualitativo de
+los sistemas din&aacute;micos usando un sistema de ventanas, que permiten
+ejecutar las opciones de los men&uacute;s y submen&uacute;s del programa.
+Las funciones mas socorridas se pueden accesar directamente desde el teclado
+o presionando el bot&oacute;n izquierdo del Mouse directamente sobre el
+icono correspondiente.</b>
+<p><b>El sistema es especialmente &uacute;til para trabajar con sistemas
+din&aacute;micos que involucran par&aacute;metros e investigar los cambios
+que ocurren en la din&aacute;mica al variar los valores de estos.</b>
+<p><b>El sistema <i>INTEGRA</i> consta de dos m&oacute;dulos ejecutables: <i>INTERFAZ</i>
+y los ejecutables generados por la INTERFAZ y sus caracter&iacute;sticas
+principales son descritas a continuaci&oacute;n:</b>

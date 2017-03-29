@@ -1,0 +1,525 @@
+ C:\Integra\Proyects\Demo.pry
+
+
+ PROJECT DESCRIPTION
+     Este proyecto contiene los siguientes sistemas:
+
+     + Atractor de Lorenz
+     + Atractor de Rossler
+     + Atractor de Chua
+     + Atractor de Duffing
+     + Atractor de Duffing Forzado
+     + FitzHugh-Nagumo
+     + FitzHugh-Nagumo Perturbado
+     + Hodgkin-Huxley
+     + Oscilador armonico
+     + Pendulo sin Fricción
+     + Pendulo con Fricción
+     + Mendelson Forma Polar
+     + Pendulo Forzado
+     + Modelo Cuadrático General
+     + van der Pol forzado
+     + Modelo de Poblaciones "Chile"
+
+
+ Atractor de Lorenz
+
+
+ SYSTEM DESCRIPTION
+     Atractor de Lorenz
+
+     El atractor de Lorenz es la representación de un sistema de ecuaciones diferenciales
+     autónomo (no depende explícitamente del tiempo), un sistema dinámico, que en principio
+     su autor lo propuso para tratar de comprender los fenómenos meteorológicos. Se
+     encontró con que a pesar de que los valores generados nunca se repiten y de que las
+     condiciones iniciales pueden hacer variar completamente los valores generados.(de ahí su
+     nombre de atractor extraño o caótico, y también que los que predicen el tiempo se
+     equivoquen tanto), el atractor toma una forma única y parece conservar cierto orden, sus
+     infinitas trayectorias nunca se cortan (pues eso implicaría que entraríamos en un ciclo
+     periódico en un sistema autónomo), y también podemos comprobar cómo este objeto
+     presenta la autosimilitud característica de los fractales. Esta extrema sensibilidad a las
+     condiciones iniciales fue lo que originó la frase del llamado Efecto Mariposa: "...el aleteo
+     de una mariposa en Australia sería suficiente para provocar un tornado en Tejas..."
+     Conviene señalar que las condiciones necesarias para que exista caos en un sistema de
+     ecuaciones diferenciales autónomo son: deben haber al menos tres ecuaciones
+     diferenciales y al menos tres variables y al menos alguna no linealidad.
+     El modelo atmosférico que utilizó Lorenz consiste en una atmósfera bidimensional
+     rectangular, cuyo extremo inferior está a una temperatura mayor que el superior. De esta
+     manera el aire caliente subirá y el aire frío bajará creándose corrientes que harán un
+     intercambio de calor por convección.
+     Las ecuaciones que describen este proceso son:
+
+     dx/dt = s(y-x)
+     dy/dt = rx - y - xz
+     dz/dt = xy - bz
+     En donde las variables, que únicamente dependen del tiempo son:
+
+     "x" representa el flujo convectivo
+     "y" es la distribución de temperaturas horizontal
+     "z" es la distribución de temperaturas vertical
+     Además tenemos de los tres parámetros que intervienen en las ecuaciones:
+
+     "s" cociente entre la viscosidad y la conductividad térmica
+     "r" la diferencia de temperaturas entre la capas inferior y superior
+     "b" el cociente entre la altura y el ancho de nuestro rectángulo
+
+
+ EQUATIONS
+     x'=s*(y-x)
+     y'=r*x-y-x*z
+     z'=x*y-b*z
+
+     s=10
+     r=28
+     b=2.666667
+
+     DIMENSION=20
+
+
+
+ Atrcator de Rosler
+
+
+ SYSTEM DESCRIPTION
+     Atractor de Rossler
+
+     Este atractor no difiere mucho del de Lorenz, es un poco más sencillo (sólo tiene un término
+     no lineal), lo descubrió Otto Rössler al estudiar las oscilaciones en las reacciones químicas,
+     llegando a dar un modelo que tenía un comportamiento caótico para ciertos valores de los
+     parámetros.
+
+     dx/dt = -y - z
+     dy/dt = x + ay
+     dz/dt = b + xz - cz
+     x(t), y(t), z(t) son las variables espaciales, función del tiempo (variable independiente); a, 
+b,
+     c son parámetros de la reacción, para que se presente el caso de atractor caótico debe ser
+     c>5.
+
+
+
+ EQUATIONS
+     x'=-(y + z)
+     y'=x + a * y
+     z'=a + z *( x - b)
+
+
+     a= 0.2
+     b = 5.7
+
+
+
+ Atractor de Chua
+
+
+ SYSTEM DESCRIPTION
+     Atractor de Chua
+
+     Este atractor representa el comportamiento de un circuito no muy complicado: dos ramas
+     en paralelo (resistencia e inductancia en una; un condensador en la otra) unidas mediante
+     una resitencia en serie a otras dos ramas más (un condensador en una rama y en la otra un
+     diodo chua).
+
+ EQUATIONS
+     V1'=C1*(G*(V2-V1)-a*V1*((b*b*V1*V1/3)-1))
+     V2'=C2*(G*(V1-V2)+i)
+     i'=-L*V2
+
+     C1=9
+     C2=0.5
+     L=7
+     G=0.65
+     a=0.8
+     b=0.1
+
+
+ Atractor de Duffing
+
+
+ SYSTEM DESCRIPTION
+     Sistema de Duffing
+
+
+     El sistema de Duffing tiene las siguientes ecuaciones
+
+     dy
+     -- = v
+     dt
+
+
+     dv
+     -- = y - y^3
+     dt
+
+
+
+
+     Este es un sistema Hamiltoniano con energía
+
+     H(y,v) = v^2 - y^2 + y^4
+              ---   ---   ---
+               2     2     4
+
+
+     Este sistema tiene dos puntos de equilibrio lo cuales
+     son centros en (-1,0) y (1,0) y un punto silla en
+     (0,0).
+
+     Las soluciones que tienden al punto silla cuando el
+     tiempo tiende a menos infinito, también se acercan a
+     ese punto cuando el tiempo tiende a infinito. Todas
+     la demás soluciones son periódicas, y se mueven
+     alrededor de uno de los centros o de los trs puntos
+     de equilibrio.
+
+
+ EQUATIONS
+     y'= v
+     v'= y - y * y * y
+
+     DIMENSION = 4
+
+
+ Atractor de Duffing Forzado
+
+
+ SYSTEM DESCRIPTION
+     Sistema de Duffing forzado periódicamente
+
+     El sistema de Duffing forzado periódicamente tiene las
+     siguientes ecuaciones
+
+     dy
+     -- = v
+     dt
+
+
+     dv
+     -- = y - y^3 + e*sen(t)
+     dt
+
+
+     siendo e un parámetro de valor pequeño
+
+
+     Siendo este sistema hipersensible a condiciones
+     iniciales
+
+ EQUATIONS
+     y'= v
+     v'= y - y * y * y + e * sinl(t)
+
+     e=0.06
+
+     DIMENSION = 4
+
+
+ FitzHugh-Nagumo
+
+
+ SYSTEM DESCRIPTION
+     FitzHugh-Nagumo
+
+ EQUATIONS
+     v'=I - v * (v - 1.0) * (v - a) - w
+     w'=b * (v - (g * w))
+
+     a=0.15
+     b=0.01
+     g=2.5
+     I=0.05
+
+
+     DIMENSION_X=1000
+     DIMENSION_Y=1
+     VENTANA=1
+     ESCENARIO_X=0
+     ESCENARIO_Y=1
+     ESCENARIO_Z=-1
+
+
+ FitzHugh-Nagumo Perturbado
+
+
+ SYSTEM DESCRIPTION
+     FitzHugh-Nagumo perturbado
+
+ EQUATIONS
+     v'=- v * (v - 1.0) * (v - a) - w
+     w'=b * (v - (g * w))
+
+     a=0.15
+     b=0.01
+     g=2.5
+     vi=0.33
+     ti=120.0
+
+     DIMENSION_X=1000
+     DIMENSION_Y=1
+     VENTANA=2
+     ESCENARIO_X=0
+     ESCENARIO_Y=1
+     ESCENARIO_Z=-1
+     METODO_NUMERICO=4
+
+
+
+ Hodgkin-Huxley
+
+
+ SYSTEM DESCRIPTION
+     Sistema de Hodgkin-Huxley que modela el potencial
+     del la menbrana de una celula nerviosa
+
+
+ EQUATIONS
+     v'=1.0/C*(-(gk*powl(n,4.0)*(v-vk))-(gn*powl(m,3.0)*h*(v-vn))-(gl*(v-vl))+I)
+     m'=(((0.1*((25.0-v)/(expl((25.0-v)/10.0)-1.0))))*(1.0-m))-(((4.0*expl(-v/18.0)))*m)
+     h'=(((0.07*expl(-v/20.0)))*(1.0-h))-(((1.0/(expl((30.0-v)/10.0)+1.0)))*h)
+     n'=(((0.01*((10.0-v)/(expl((10.0-v)/10.0)-1.0))))*(1.0-n))-(((0.125*expl(-v/80.0)))*n)
+
+
+     gk=36.0
+     gn=120.0
+     gl=0.3
+     vn=115.0
+     vk=-12.0
+     vl=10.6
+     C=1.0
+     I=0.0
+
+
+     DIMENSION_X=10
+     DIMENSION_Y=100
+     ESCENARIO_X=0
+     ESCENARIO_Y=1
+     ESCENARIO_Z=-1
+     VENTANA=2
+
+
+ Oscilador Armonico
+
+
+ SYSTEM DESCRIPTION
+     Oscilador armonico
+
+ EQUATIONS
+     x'=y
+     y'=-a*x
+
+     a=1.0
+
+
+ Pendulo sin Fricción
+
+
+ SYSTEM DESCRIPTION
+     Pendulo sin fricción
+
+ EQUATIONS
+     x'=y
+     y'=-c*sinl(x)
+
+     c=1.0
+
+
+ Pendulo con Fricción
+
+
+ SYSTEM DESCRIPTION
+     Pendulo con fricción
+
+ EQUATIONS
+     x'=y
+     y'=-k*y-c*sinl(x)
+
+     k=0.5
+     c=1.0
+
+
+ Mendelson (polar)
+
+
+ SYSTEM DESCRIPTION
+     Mendelson forma polar
+
+ EQUATIONS
+     p'=p*(1.0-p)
+     o'=sinl(o/2.0)*sinl(o/2.0)
+
+
+     DIMENSION=3
+     VENTANA=6
+
+
+
+ Pendulo Forzado
+
+
+ SYSTEM DESCRIPTION
+     Pendulo forzado
+
+        Dinámica caótica g = 1.15
+        Dinámica no caótica g << 0.5
+
+ EQUATIONS
+     w'=-(w/q)-sinl(te)+g*cosl(fi)
+     te'=w
+     fi'=wd
+
+     q=2
+     wd=0.666666666666666666666
+     g=1.0
+
+
+     DIMENSION_X=10
+     DIMENSION_Y=10
+     DIMENSION_Z=1000
+     ESCENARIO_X=2
+     ESCENARIO_Y=1
+     ESCENARIO_Z=-1
+     VENTANA=1
+
+
+
+ Logística
+
+ EQUATIONS
+     T'= 1.0
+     P'= K * (1 - (P * invl(N)) * P)
+
+     K = 0.3
+     N = 6.0
+
+     DIMENSION = 10
+
+
+ Depredador-Presa
+
+ EQUATIONS
+     C' = (a * C) - (b * C * Z)
+     Z' = - (g * Z) + (d * C * Z)
+
+     a = 2.0
+     b = 1.2
+     g = 1.0
+     d = 0.9
+
+
+ Hodgkin-Huxley Rapido
+
+ EQUATIONS
+     v'=1.0/C*(-(gk*powl(n,4.0)*(v-vk))-(gn*powl(m,3.0)*h*(v-vn))-(gl*(v-vl))+I)
+     m'=(am*(1.0-m))-(bm*m)
+
+     am=(0.1*((25.0-v)/(expl((25.0-v)/10.0)-1.0)))
+     bm=(4.0*expl(-v/18.0))
+
+     gk=36.0
+     gn=120.0
+     gl=0.3
+     vn=115.0
+     vk=-12.0
+     vl=10.6
+     C=1.0
+     I=0.0
+     h=0.596
+     n=0.3176
+
+
+     DIMENSION_X=150
+     DIMENSION_Y=1
+     ESCENARIO_X=0
+     ESCENARIO_Y=1
+     ESCENARIO_Z=-1
+     VENTANA=1
+
+
+
+ Hodgkin-Huxley Rapido-Lento
+
+ EQUATIONS
+     v'=1.0/C*(-(gk*powl(n,4.0)*(v-vk))-(gn*powl((am/(am+bm)),3.0)*(0.8-n)*(v-vn))-(gl*(v-vl))+I)
+     n'=(an*(1.0-n))-(bn*n)
+
+     am=(0.1*((25.0-v)/(expl((25.0-v)/10.0)-1.0)))
+     bm=(4.0*expl(-v/18.0))
+     an=(0.01*((10.0-v)/(expl((10.0-v)/10.0)-1.0)))
+     bn=(0.125*expl(-v/80.0))
+     gk=36.0
+     gn=120.0
+     gl=0.3
+     vn=115.0
+     vk=-12.0
+     vl=10.6
+     C=1.0
+     I=0.0
+
+     DIMENSION_X=100
+     DIMENSION_Y=1
+     ESCENARIO_X=0
+     ESCENARIO_Y=1
+     ESCENARIO_Z=-1
+     VENTANA=1
+
+
+
+ Modelo cuadrático
+
+
+ SYSTEM DESCRIPTION
+     Modelo cuadrático general
+
+ EQUATIONS
+     x'=x*(a+b*x+c*y)
+     y'=y*(d+e*x+f*y)
+
+     a=1.0
+     b=0.0
+     c=-0.5
+     d=-1.0
+     e=0.0
+     f=0.2
+
+
+ van der Pol
+
+
+ SYSTEM DESCRIPTION
+     Sistema de van der Pol forzado
+
+ EQUATIONS
+     x'=y-(((x*x*x)/a)-x)
+     y'=-e*x+b*cosl(t)
+     a=3.0
+     b=0.0
+     e=1.0
+
+
+ Poblaciones Chile
+
+
+ SYSTEM DESCRIPTION
+     Poblaciones "Chile"
+
+ EQUATIONS
+     x'=((1.0-x)*(A+(x*x))-Q*y)*(x*x)
+     y'=B*(x-y)*(A+(x*x))*y
+     A=0.1
+     B=0.27
+     Q=0.277225
+
+
+ ValidarMetodosNumericos
+
+ EQUATIONS
+     x'=1
+     y'=y-x*x+1
+
+
+ ValidarMetodosNumericosRigidos
+
+ EQUATIONS
+     x'=1
+     y'=5*expl(5*x)*(y-x)*(y-x)+1
+

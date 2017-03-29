@@ -1,0 +1,169 @@
+<p><b>El programa ejecutable generado por la <i>INTERFAZ</i> tiene
+las siguientes caracter&iacute;sticas que son descritas a continuaci&oacute;n:</b>
+<center><br><p><img SRC="./Imagenes/Imagen0.png" ALT="Ventana Principal" NOSAVE BORDER=0 ></center>
+<ul>
+<li>
+<b>Selecci&oacute;n del sistema a trabajar de manera interactiva</b></li>
+
+<li>
+<b>Permite cambiar el valor de los par&aacute;metros de cada sistema del
+proyecto</b></li>
+
+<li>
+<b>Selecci&oacute;n de la condici&oacute;n inicial usando teclas</b></li>
+
+<li>
+<b>Captura de condiciones iniciales incluyendo al tiempo</b></li>
+<center><br><p><img SRC="./Imagenes/Imagen1.png" ALT="Ventana del Espacio de Faces" NOSAVE BORDER=0 ></center>
+<li>
+<b>Tipos de ventana gr&aacute;fica:</b></li>
+<ul>
+<li><b>Ejes en dos dimensiones</li>
+<ul>
+<li><b>Ventana</li>
+<li><b>Ejes coordenados</li>
+<li><b>Ejes coordenados modificado</li>
+<li><b>Ventana de caja</li>
+<li><b>Coordenadas polares</li>
+</ul>
+<li><b>Ejes en tres dimensiones</li>
+<ul>
+<li><b>Ejes coordenados</li>
+<li><b>Ventana de caja</li>
+<li><b>Ventana de caja modificada</li>
+</ul>
+</ul>
+
+<li>
+<b>Permite seleccionar que variables ser&aacute;n visualizadas de cada
+sistema</b></li>
+
+<li>
+<b>Visualiza cursos temporales <i>(soporta ver m&uacute;ltiples cursos 
+temporales en una sola ventana)</i></b></li>
+<center><br><p><img SRC="./Imagenes/Imagen2.png" ALT="Ventana del Curso Temporal" NOSAVE BORDER=0 ></center>
+<li>
+<b>Graficaci&oacute;n del campo vectorial en 2 dimensiones</b></li>
+<li>
+<b>Graficaci&oacute;n del campo direccional en 2 dimensiones</b></li>
+
+<li>
+<b>Gr&aacute;fica ceroclinas del sistema <i>(s&oacute;lo en sistemas de dimensi&oacute;n dos)</i></b></li>
+
+<li>
+<b>Gr&aacute;fica isoclinas del sistema <i>(s&oacute;lo en sistemas de dimensi&oacute;n dos)</i></b></li>
+
+<li>
+<b>Graficaci&oacute;n de las funciones auxiliares definidas por el usuario
+en la <i>INTERFAZ</i> para el eje horizontal y vertical</b></li>
+
+<li>
+<b>Permite editar y graficar cualquier funci&oacute;n auxiliar</b></li>
+
+<li><b>Permite grabar la pantalla completa en formato BMP</b></li>
+<li><b>C&aacute;lculo del mapeo del per&iacute;odo</b></li>
+<li><b>C&aacute;lculo del per&iacute;odo de una trayectoria cerrada</b></li>
+<li><b>C&aacute;lculo de equilibrios (primera versi&oacute;n)</b></li>
+<li>
+<b>Selecci&oacute;n interactiva de los m&eacute;todos num&eacute;ricos
+y modificaci&oacute;n de sus par&aacute;metros.</b></li>
+
+<li>
+<b>Los m&eacute;todos num&eacute;ricos de integraci&oacute;n que posee
+el sistema son los siguientes:</b></li>
+
+<ul>
+<li>M&eacute;todos de un paso, paso fijo</li>
+<ul>
+<li><b>Euler (1er orden)</b></li>
+<li><b>Euler modificado (2do orden)</b></li>
+<li><b>Punto medio (2do orden)</b></li>
+<li><b>Heun (2do orden)</b></li>
+<li><b>Runge-Kutta I (3 orden)</b></li>
+<li><b>Runge-Kutta II (3 orden)</b></li>
+<li><b>Formula 3/8 (4 orden)</b></li>
+<li><b>Runge-Kutta Cl&aacute;sico (4 orden)</b></li>
+<li><b>Runge-Kutta-Gill (4 orden)</b></li>
+<li><b>England (4 orden)</b></li>
+<li><b>Runge-Kutta-Fehlberg (4 orden)</b></li>
+<li><b>Runge-Kutta-Fehlberg I (5 orden)</b></li>
+<li><b>England (5 orden)</b></li>
+<li><b>Kutta-Nyström (5 orden)</b></li>
+<li><b>Runge-Kutta-Fehlberg II (5 orden)</b></li>
+<li><b>Butcher (6 orden)</b></li>
+<li><b>Runge-Kutta-Fehlberg (6 orden)</b></li>
+</ul>
+<li>M&eacute;todos de un paso, paso variable</li>
+<ul>
+<li><b>Runge-Kutta (3(2) orden)</b></li>
+<li><b>Runge-Kutta-Fehlberg (4(3) orden)</b></li>
+<li><b>Prince-Dormand (5(4)6 orden)</b></li>
+<li><b>Prince-Dormand I (5(4)7 orden)</b></li>
+<li><b>Prince-Dormand II (5(4)7 orden)</b></li>
+<li><b>Runge-Kutta-Fehlberg (5(4) orden)</b></li>
+<li><b>England (5(4) orden)</b></li>
+<li><b>Prince-Dormand (6(5)8 orden)</b></li>
+<li><b>Runge-Kutta-Fehlberg (6(5) orden)</b></li>
+<li><b>Runge-Kutta-Verner I (6(5) orden)</b></li>
+<li><b>Runge-Kutta-Verner II (6(5) orden)</b></li>
+<li><b>Runge-Kutta-Verner (7(6)10 orden)</b></li>
+<li><b>Runge-Kutta-Verner (8(7)13 orden)</b></li>
+<li><b>Runge-Kutta-Fehlberg (8(7)13 orden)</b></li>
+<li><b>Prince-Dormand (8(7)13 orden)</b></li>
+<li><b>Runge-Kutta-Verner (9(8)16 orden)</b></li>
+</ul>
+<li>M&eacute;todos multipaso, paso fijo</li>
+<ul>
+<li><b>Adams-Bashforth (2 pasos)</b></li>
+<li><b>Adams-Bashforth (3 pasos)</b></li>
+<li><b>Milne (3 pasos)</b></li>
+<li><b>Adams-Bashforth (4 pasos)</b></li>
+<li><b>Adams-Bashforth (5 pasos)</b></li>
+<li><b>Adams-Bashforth (6 pasos)</b></li>
+<li><b>Adams-Bashforth (7 pasos)</b></li>
+</ul>
+<li>M&eacute;todos multipaso Predictor-Corrector, paso fijo</li>
+<ul>
+<li><b>Adams-Bashforth-Moulton (3 orden)</b></li>
+<li><b>Milne-Simpson (3 orden)</b></li>
+<li><b>Adams-Bashforth-Moulton (4 orden)</b></li>
+<li><b>Adams-Bashforth-Moulton I (5 orden)</b></li>
+<li><b>Adams-Bashforth-Moulton II (5 orden)</b></li>
+<li><b>Adams-Bashforth-Moulton (6 orden)</b></li>
+<li><b>Adams-Bashforth-Moulton (7 orden)</b></li>
+</ul>
+<li>M&eacute;todos multipaso Predictor-Corrector, paso variable</li>
+<ul>
+<li><b>Adams-Bashforth-Moulton (3 orden)</b></li>
+<li><b>Adams-Bashforth-Moulton (4 orden)</b></li>
+<li><b>Adams-Bashforth-Moulton I (5 orden)</b></li>
+<li><b>Adams-Bashforth-Moulton II (5 orden)</b></li>
+<li><b>Adams-Bashforth-Moulton (6 orden)</b></li>
+<li><b>Adams-Bashforth-Moulton (7 orden)</b></li>
+</ul>
+<li>M&eacute;todos A-estables de un paso, paso fijo</li>
+<ul>
+<li><b>Trapecio (A-estable iteraciones por secante)</b></li>
+<li><b>Euler regresivo (A-estable iteraciones por secante)</b></li>
+</ul>
+</ul>
+
+<li>
+<b>Visualiza la descripci&oacute;n del proyecto</b></li>
+
+<li>
+<b>Graba el resultado de la integraciones num&eacute;ricas</b></li>
+
+<li>
+<b>Graba y restaura la configuraci&oacute;n del sistema</b></li>
+
+<li>
+<b>Visualiza la descripci&oacute;n de cada uno de los sistemas del proyecto</b></li>
+
+<li>
+<b>Ayuda en l&iacute;nea para cada unas de las actividades del sistema</b></li>
+</ul>
+</blockquote>
+</ul>
+
+

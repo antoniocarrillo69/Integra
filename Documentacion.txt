@@ -1,0 +1,76 @@
+Manuales<br>
+<ul>
+<li>INTERFAZ<br>(versi&oacute;n en desarrollo)</li><br><br>
+<li>INTEGRA<br>(versi&oacute;n en desarrollo)</li>
+</ul>
+
+<br><br>
+Tutoriales<br>
+<ul>
+<li><a href="./Manual-Tutoriales/FHN.pdf" target="_blank">El Modelo de 
+Neurona de FitzHugh-Nagumo<br>(archivo PDF 238 KB)</a></li>
+</ul>
+<br><br>
+Tesis<br>
+<ul>
+<li><a href="./Manual-Tutoriales/CarolinaBarrigaMontoya.pdf" target="_blank">Modelaci&oacute;n y An&aacute;lisis de la Sincronizaci&oacute;n de una C&eacute;lula Nerviosa Peri&oacute;dicamente Estimulada: Una Analog&iacute;a Mec&aacute;nica
+<br>F&iacute;sica Carolina Barriga Montolla, UNAM, M&eacute;xico<br>(archivo PDF 24238 KB)</a></li>
+</ul>
+<br><br>
+
+BIBLIOGRAFIA</b>
+<ul>
+<li><b>
+Solving Ordinary Differential Equations I (nonstiff problems)
+<br>E. Hairer S.P. Norsett and G. Wanner
+<br>Springer-Verlag ISBN 3-540-17145-2
+</b></li><br><br>
+
+<li><b>
+Solving Ordinary Differential Equations II (stiff and differential-algebraic problems)
+<br>E. Hairer S.P. Norsett and G. Wanner
+<br>Springer-Verlag ISBN 3-540-53775-9
+</b></li><br><br>
+
+<li><b>
+Numerical Algorithms With C</a><br>
+Gisela Engeln-Müllges and Frank Uhlig<br>
+Springer ISBN 3-540-60530-4</b></li><br><br>
+
+<li><b>
+An&aacute;lisis Num&eacute;rico 7a Edici&oacute;n<br>
+Richard L. Burden y J. Douglas Faires<br>
+Internacional Thomson
+</b></li><br><br>
+
+<li><b>
+Ecuaciones Diferenciales</a><br>
+Paul Blanchard, Robert L. Devaney y Glen R. Hall<br>
+Internacional Thomson
+</b></li><br><br>
+
+<li><b>
+Dynamical Systems</a><br>
+D. K. Arrowsmith and C. M. Place<br>
+CHAPMAN & HALL
+</b></li><br><br>
+
+
+<li><b>
+Ecuaciones Diferenciales y C&aacute;lculo Variacional</a><br>
+L. Elsgoltz<br>
+Mir Moscu
+</b></li><br><br>
+
+<li><b>
+Lectures on Numerical Analysis</a><br>
+Dennis Deturk and Herbert S. Wilf<br>
+Departament of Mathematics, University of Pennsylvania
+</b></li><br><br>
+
+
+</ul>
+
+
+</ul>
+

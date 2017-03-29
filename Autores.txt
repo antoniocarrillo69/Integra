@@ -1,0 +1,38 @@
+
+<b>Versi&oacute;n 1.0.0
+<ul>
+<li><b>Adici&oacute;n de nuevas caracterst&iacute;cas y mantenimiento a la parte matem&aacute;tica<br>(en proceso)</b></li>
+<ul>
+<li><i><a href="http://www.dynamics.unam.edu/DinamicaNoLineal/Integrantes/fol.html" target="_blank">Fernado Alberto Ongay Larios</a></i></li>
+<li><i><a href="http://www.dynamics.unam.edu/hcc" target="_blank">Humberto Carrillo Calvet</a></i></li>
+<li><i><a href="/acl/" target="_blank">Antonio Carrillo Ledesma</a></i></li>
+</ul>
+<li><b>Programaci&oacute;n<br>(en proceso)</b></li>
+<ul>
+<li><i><a href="http://www.dynamics.unam.edu/DinamicaNoLineal/Integrantes/fol.html" target="_blank">Fernado Alberto Ongay Larios</a></i></li>
+<li><i><a href="http://www.dynamics.unam.edu/hcc" target="_blank">Humberto Carrillo Calvet</a></i></li>
+<li><i><a href="/acl/" target="_blank">Antonio Carrillo Ledesma</a></i></li>
+<li><i>Luis Alonso Nava Fernandez</i></li>
+</ul>
+<li><b>Dise&ntilde;o<br>(terminado)</b></li>
+<ul>
+<li><i><a href="http://www.dynamics.unam.edu/DinamicaNoLineal/Integrantes/fol.html" target="_blank">Fernado Alberto Ongay Larios</a></i></li>
+<li><i><a href="http://www.dynamics.unam.edu/hcc" target="_blank">Humberto Carrillo Calvet</a></i></li>
+<li><i><a href="/acl/" target="_blank">Antonio Carrillo Ledesma</a></i></li>
+<li><i>Luis Alonso Nava Fernandez</i></li>
+</ul>
+<li><b>An&aacute;lisis<br>(terminado)</b></li>
+<ul>
+<li><i><a href="http://www.dynamics.unam.edu/DinamicaNoLineal/Integrantes/fol.html" target="_blank">Fernado Alberto Ongay Larios</a></i></li>
+<li><i><a href="http://www.dynamics.unam.edu/hcc" target="_blank">Humberto Carrillo Calvet</a></i></li>
+<li><i><a href="/acl/" target="_blank">Antonio Carrillo Ledesma</a></i></li>
+<li><i>Luis Alonso Nava Fernandez</i></li>
+</ul>
+</ul>
+<br><br>
+<b>Controlador de Versi&oacute;n:</b>
+<ul>
+<li><i><a href="/acl/" target="_blank">Antonio Carrillo Ledesma</a></i></li>
+
+</ul>
+
